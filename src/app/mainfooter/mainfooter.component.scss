@@ -1,0 +1,39 @@
+.mainfooter-container {
+  width: 100vw;
+  height: 10vh;
+  background-color: rgb(12, 29, 104);
+  bottom: 0;
+  display: flex;
+  justify-content: space-around;
+
+  .mainfooter-para {
+    font-size: 1rem;
+    color: white;
+    padding: 1.5rem;
+  }
+  .mainfooter-button {
+    // border: 1px solid red;
+    display: flex;
+    font-size: 1rem;
+    color: white;
+    padding: 1.5rem;
+    .btn1 {
+      cursor: pointer;
+      &:hover {
+        background-color: red;
+        color: white;
+      }
+    }
+    .btn2 {
+      margin-left: 0.8rem;
+    }
+    .btn3 {
+      margin-left: 0.8rem;
+      cursor: pointer;
+      &:hover {
+        background-color: red;
+        color: white;
+      }
+    }
+  }
+}

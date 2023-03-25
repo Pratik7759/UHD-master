@@ -1,0 +1,43 @@
+$background-color: rgb(12, 29, 104);
+$color: white;
+$border-background-color: rgb(172, 16, 16);
+ul.nav-tabs.justify-content-left.nav {
+  height: 2.9rem;
+}
+.nav-tabs {
+  background-color: $background-color;
+  border-top: 4px solid $border-background-color;
+  .navlinks {
+    display: flex;
+    margin-left: 14vw;
+  }
+  span {
+    color: red;
+  }
+
+  li.nav-item a {
+    background-color: $background-color;
+    color: $color;
+    border-color: $background-color;
+
+    &:hover {
+      background-color: $border-background-color;
+      color: $color;
+      border-color: $border-background-color;
+    }
+  }
+}
+span.number {
+  color: red;
+}
+img.img1 {
+  margin-top: 1rem;
+  margin-bottom: 0.6rem;
+  height:2.5rem;
+}
+.container-head{
+  margin-top: 0.6rem;
+  margin-bottom: 0.6rem;
+  font-size:1.05rem;
+}
+

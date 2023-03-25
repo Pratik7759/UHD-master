@@ -1,0 +1,100 @@
+<form class="form" [formGroup]="myForm" (ngSubmit)="onSubmit()">
+  <div class="title"><p class="title-head">REQUEST INFORMATION</p></div>
+  <!-- <div class="subtitle">Let's create your account!</div> -->
+  <div class="input-container ic1">
+    <input
+      type="text"
+      class="input"
+      placeholder="First Name"
+      formControlName="name"
+    />
+  </div>
+
+  <div class="input-container ic2">
+    <input
+      type="text"
+      class="input"
+      placeholder="Last Name"
+      formControlName="name"
+    />
+  </div>
+  <div class="input-container ic2">
+    <!-- <label for="email">Email</label> -->
+    <input
+      type="email"
+      class="input"
+      placeholder="E-mail Address"
+      formControlName="email"
+    />
+  </div>
+  <!-- <div class="input-container ic3">
+    <input
+      type="number"
+      class="input"
+      placeholder="Enter Age"
+      formControlName="age"
+    />
+  </div> -->
+  <div class="input-container ic4">
+    <input
+      type="tel"
+      pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}"
+      placeholder="Phone Number"
+      formControlName="contact"
+      class="input"
+    />
+  </div>
+  <!-- <div class="input-container ic5">
+    <input
+      type="text"
+      class="input"
+      placeholder="Enter Place"
+      formControlName="place"
+    />
+  </div> -->
+
+  <div ngbDropdown class="d-inline-block">
+    <button type="button" class="btn" id="dropdownBasic1" ngbDropdownToggle>
+      Program of Interest
+    </button>
+    <div ngbDropdownMenu aria-labelledby="dropdownBasic1">
+      <button ngbDropdownItem>Action - 1</button>
+      <button ngbDropdownItem>Another Action</button>
+      <button ngbDropdownItem>Something else is here</button>
+    </div>
+  </div>
+
+  <div ngbDropdown class="d-inline-block">
+    <button type="button" class="btn-two" id="dropdownBasic1" ngbDropdownToggle>
+      Program Delivery Type
+    </button>
+    <div ngbDropdownMenu aria-labelledby="dropdownBasic1">
+      <button ngbDropdownItem>Action - 1</button>
+      <button ngbDropdownItem>Another Action</button>
+      <button ngbDropdownItem>Something else is here</button>
+    </div>
+  </div>
+
+  <div ngbDropdown class="d-inline-block">
+    <button
+      type="button"
+      class="btn-three"
+      id="dropdownBasic1"
+      ngbDropdownToggle
+    >
+      Preffered Communication Type
+    </button>
+    <div ngbDropdownMenu aria-labelledby="dropdownBasic1">
+      <button ngbDropdownItem>Action - 1</button>
+      <button ngbDropdownItem>Another Action</button>
+      <button ngbDropdownItem>Something else is here</button>
+    </div>
+  </div>
+
+  <button type="submit" class="submit" [disabled]="!myForm.valid">
+    LEARN MORE TODAY!
+  </button>
+
+  <!-- {{name.value}} -->
+  <!-- <p>Form Status: {{ myForm.status }}</p> -->
+</form>

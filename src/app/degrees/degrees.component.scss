@@ -1,0 +1,58 @@
+.degree-container {
+  width: 69vw;
+  margin-top: 4rem;
+  margin-left: 15vw;
+  margin-right: 17vw;
+
+  .btn-container {
+    margin-top: 4rem;
+    .row {
+      background-color: white;
+      .col {
+        text-align: center;
+        margin: 3px;
+        background-color: rgb(202, 199, 199);
+        height: 4rem;
+        padding-top: 1.1rem;
+        color: rgb(7, 7, 88);
+        cursor: pointer;
+        &:hover {
+          background-color: rgb(170, 8, 8);
+          color: white;
+        }
+      }
+      .col-4 {
+        border: 0.2rem solid white;
+        text-align: center;
+        background-color: rgb(202, 199, 199);
+        height: 4rem;
+        padding-top: 1.1rem;
+        color: rgb(7, 7, 88);
+        cursor: pointer;
+
+        &:hover {
+          background-color: rgb(170, 8, 8);
+          color: white;
+        }
+      }
+    }
+  }
+
+  .degree-heading {
+    font-size: 1.7rem;
+    color: darkblue;
+    margin-bottom: 1rem;
+    font-weight: 500;
+  }
+
+  .degree-buttons {
+    display: flex;
+    justify-content: center;
+    width: 72vw;
+
+    .degree-btn {
+      border: none;
+      padding: 5px;
+    }
+  }
+}

@@ -1,0 +1,40 @@
+<div class="container">
+  <div class="row justify-content-around">
+    <div class="col-4">
+      <img class="img1" src="\assets\images\Untitled-3.gif" />
+    </div>
+    <div class="col-4">
+      <div class="container-head">
+        call <span class="number">713-221-8522</span> to speak to an admission
+        counselor or complete the form below to learn more!
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- lower nav -->
+<ul ngbNav #nav="ngbNav" [activeId]="2" class="nav-tabs justify-content-left">
+  <div class="navlinks">
+    <li [ngbNavItem]="1">
+      <a ngbNavLink>HOME</a>
+      <ng-template ngbNavContent>
+        <p>Raw denim</p>
+      </ng-template>
+    </li>
+
+    <li ngbDropdown class="nav-item">
+      <a href (click)="(false)" class="nav-link" ngbDropdownToggle
+        >DEGREE PROGRAMS</a
+      >
+      <div ngbDropdownMenu>
+        <button ngbDropdownItem>Action</button>
+        <button ngbDropdownItem>Another action</button>
+        <button ngbDropdownItem>Something else here</button>
+        <div class="dropdown-divider"></div>
+        <button ngbDropdownItem>Separated link</button>
+      </div>
+    </li>
+  </div>
+</ul>
+
+<div [ngbNavOutlet]="nav" class="mt-2"></div>

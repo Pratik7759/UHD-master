@@ -1,0 +1,45 @@
+.about-container {
+  // border:1px solid red;
+
+  width: 100vw;
+  .about-row {
+    // border:1px solid green;
+
+    margin-top: 6rem;
+    margin-left:15vw;
+    margin-right:16vw;
+
+    .about-col {
+      // border:1px solid black;
+      .about-image{
+        // width:50vw;
+        // height:20vh;
+      }
+
+      display: flex;
+      justify-content: center;
+      
+      .about {
+        // border:1px solid blue;
+
+        // width:35vw;
+        .about-heading {
+          // border:1px solid teal;
+
+          font-size: 1.7rem;
+          color: darkblue;
+          margin-bottom: 1.5rem;
+          font-weight: 500;
+          margin-left:0vw;
+          padding-right: 35px;
+        }
+      
+      }
+    }
+  }
+}
+.about-p{
+  // border:1px solid magenta;
+  color:black;
+  padding-right: 35px;
+}
