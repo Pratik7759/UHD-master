@@ -35,5 +35,26 @@
         color: white;
       }
     }
+    .btn4 {
+      margin-left: 8vw;
+      margin-top: 0rem;
+      height: 0.5rem;
+      width: 1rem;
+    }
   }
+}
+
+span {
+  content: "\21E7";
+}
+button {
+  width: 50px;
+  height: 50px;
+}
+.top-btn {
+  line-height: 3px;
+}
+
+.btn4 button {
+  margin-top: -10px;
 }
