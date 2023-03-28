@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
-import { Output } from '@angular/core';
-import { EventEmitter } from '@angular/core';
+import { AppComponent } from '../app.component';
+
+
 
 @Component({
   selector: 'app-choose',
@@ -8,9 +9,9 @@ import { EventEmitter } from '@angular/core';
   styleUrls: ['./choose.component.scss']
 })
 export class ChooseComponent {
-  @Output() messageToEmit = new EventEmitter<string>();
 
-  sendMessageToParent(message: string) {
-      this.messageToEmit.emit(message)
+  constructor(public AppComponent : AppComponent ){
+    console.log('ghvvhj',this.AppComponent.name);
+
   }
 }
