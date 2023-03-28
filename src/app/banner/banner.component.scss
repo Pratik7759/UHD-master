@@ -2,7 +2,7 @@
   position: relative;
   .footer-container {
     width: 100vw;
-    height: 10vh;
+    height: 4rem;
     background-color: rgb(12, 29, 104, 0.6);
     position: absolute;
     bottom: 0;
@@ -12,6 +12,7 @@
       font-size: 1.7rem;
       color: white;
       padding: 1rem;
+      padding-top: 0.7rem;
       margin-left: 14vw;
     }
   }

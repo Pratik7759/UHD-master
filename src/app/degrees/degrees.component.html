@@ -8,15 +8,17 @@
   </div>
   <div class="btn-container">
     <div class="row">
-      <div class="col">BUSINESS</div>
-      <div class="col">COMPLETION</div>
-      <div class="col">CRIMINAL JUSTICE</div>
-      <div class="col">EDUCATION</div>
+      <div class="col" ><button (click)="onClick($event)" id="test1">BUSINESS</button></div>
+      <div class="col" ><button (click)="onClick($event)" id="test2">COMPLETION</button></div>
+      <div class="col" ><button (click)="onClick($event)" id="test3">CRIMINAL JUSTICE</button></div>
+      <div class="col" ><button (click)="onClick($event)" id="test4">EDUCATION</button></div>
     </div>
     <div class="row">
-      <div class="col-4">HUMANITIES & SOCIAL SCIENCE</div>
-      <div class="col-4">PUBLIC SERVICE</div>
-      <div class="col-4">SCIENCE</div>
+      <div class="col-4"><button>HUMANITIES & SOCIAL SCIENCE</button></div>
+      <div class="col-4"><button>PUBLIC SERVICE</button></div>
+      <div class="col-4"><button>SCIENCE</button></div>
     </div>
   </div>
 </div>
+<!-- <app-choose (messageToEmit)="getMessage($event)"></app-choose> -->
+

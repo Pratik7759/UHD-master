@@ -4,39 +4,6 @@
   margin-left: 15vw;
   margin-right: 17vw;
 
-  .btn-container {
-    margin-top: 4rem;
-    .row {
-      background-color: white;
-      .col {
-        text-align: center;
-        margin: 3px;
-        background-color: rgb(202, 199, 199);
-        height: 4rem;
-        padding-top: 1.1rem;
-        color: rgb(7, 7, 88);
-        cursor: pointer;
-        &:hover {
-          background-color: rgb(170, 8, 8);
-          color: white;
-        }
-      }
-      .col-4 {
-        border: 0.2rem solid white;
-        text-align: center;
-        background-color: rgb(202, 199, 199);
-        height: 4rem;
-        padding-top: 1.1rem;
-        color: rgb(7, 7, 88);
-        cursor: pointer;
-
-        &:hover {
-          background-color: rgb(170, 8, 8);
-          color: white;
-        }
-      }
-    }
-  }
 
   .degree-heading {
     font-size: 1.7rem;
@@ -45,14 +12,41 @@
     font-weight: 500;
   }
 
-  .degree-buttons {
-    display: flex;
-    justify-content: center;
-    width: 72vw;
+  .btn-container {
+    margin-top: 4rem;
 
-    .degree-btn {
-      border: none;
-      padding: 5px;
+    .row {
+
+      background-color: white;
+      .col button {
+        text-align: center;
+        background-color: rgb(202, 199, 199);
+        height: 4rem;
+        width: 15rem;
+        color: rgb(7, 7, 88);
+        border: none;
+
+
+        &:hover {
+          background-color: rgb(170, 8, 8);
+          color: white;
+        }
+      }
+      .col-4 button {
+        text-align: center;
+        background-color: rgb(202, 199, 199);
+        height: 4rem;
+        width: 20.7rem;
+        color: rgb(7, 7, 88);
+        border: none;
+        margin-top: 1.5rem;
+        padding: 0;
+
+        &:hover {
+          background-color: rgb(170, 8, 8);
+          color: white;
+        }
+      }
     }
   }
 }

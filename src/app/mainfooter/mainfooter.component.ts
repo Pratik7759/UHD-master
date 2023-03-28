@@ -1,4 +1,5 @@
 import { Component, ElementRef, ViewChild } from '@angular/core';
+import { BehaviorSubject } from 'rxjs';
 
 @Component({
   selector: 'app-mainfooter',
@@ -11,4 +12,10 @@ export class MainfooterComponent {
   // scrollTop() {
   //   this.scroll.nativeElement.scrollTop = 0;
   // }
+  scrollTop(){
+    window.scrollTo({
+      top:0,
+      behavior:'smooth',
+    })
+  }
 }

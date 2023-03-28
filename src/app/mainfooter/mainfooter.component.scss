@@ -5,6 +5,7 @@
   bottom: 0;
   display: flex;
   justify-content: space-around;
+  margin-top:4rem;
 
   .mainfooter-para {
     font-size: 1rem;
@@ -18,7 +19,7 @@
     color: white;
     padding: 1.5rem;
     .btn1 {
-      cursor: pointer;
+      // cursor: pointer;
       &:hover {
         background-color: red;
         color: white;
@@ -29,7 +30,7 @@
     }
     .btn3 {
       margin-left: 0.8rem;
-      cursor: pointer;
+      // cursor: pointer;
       &:hover {
         background-color: red;
         color: white;
@@ -57,4 +58,8 @@ button {
 
 .btn4 button {
   margin-top: -10px;
+}
+a{
+  color:white;
+  text-decoration: none;
 }

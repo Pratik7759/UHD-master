@@ -1,12 +1,11 @@
 .form {
   background-color: #9db7d8;
-  height: 68vh;
-  position:absolute;
+  height: 32rem;
+  position: absolute;
   z-index: 3;
   top: 8.3rem;
   right: 15vw;
   width: 21.92rem;
-  
 
   .title {
     color: #eee;
@@ -23,38 +22,8 @@
       padding: 10px;
     }
   }
-  .input-container {
-    height: 2.8rem;
-    position: relative;
-    width: 100%;
-
-    .input {
-      background-color: white;
-      border: 0;
-      box-sizing: border-box;
-      color: black;
-      font-size: 17px;
-      height: 100%;
-      outline: 0;
-      padding: 4px 20px 0;
-      width: 90%;
-      margin-left: 17px;
-
-      .placeholder {
-        color: #65657b;
-        font-family: sans-serif;
-        left: 20px;
-        line-height: 14px;
-        pointer-events: none;
-        position: absolute;
-        transform-origin: 0 50%;
-        transition: transform 200ms, color 200ms;
-        top: 20px;
-      }
-    }
-  }
   .submit {
-    background-color: rgb(206, 21, 92);
+    background-color: rgb(197, 17, 56);
     // border-radius: 12px;
     border: 0;
     box-sizing: border-box;
@@ -66,59 +35,82 @@
     outline: 0;
     text-align: center;
     width: 90%;
-    margin-left: 17px;
-  }
+    margin-left: 1.1rem;  }
   .btn {
     background-color: white;
-    margin-top: 5px;
+    margin-top: 0.4rem;
     border-radius: 0px;
-    color: rgb(99, 98, 98);
-    width: 154.4%;
-    height: 50px;
-    text-align: left;
-    padding-left: 18px;
-    margin-left: 17px;
-  }
+    color: rgb(120, 116, 116);
+    width: 155.4%;
+    height: 2.6rem;
+        text-align: left;
+    padding-left: 16px;
+    margin-left: 1.1rem;  }
   .btn-two {
     background-color: white;
-    margin-top: 5px;
+    margin-top: 0.4rem;
     border-radius: 0px;
-    color: rgb(99, 98, 98);
-    width: 145%;
-    height: 50px;
+    color: rgb(120, 116, 116);
+    width: 145.9%;
+    height: 2.6rem;
     text-align: left;
-    padding-left: 18px;
+    padding-left: 16px;
     border: none;
-    margin-left: 17px;
-  }
+    margin-left: 1.1rem;  }
   .btn-three {
     background-color: white;
-    margin-top: 5px;
+    margin-top: 0.4rem;
     border-radius: 0px;
-    color: rgb(99, 98, 98);
-    width: 112.7%;
-    height: 50px;
+    color: rgb(120, 116, 116);
+    width: 113.5%;
+    height: 2.6rem;
     text-align: left;
-    padding-left: 18px;
+    padding-left: 16px;
     border: none;
-    margin-left: 17px;
+    margin-left: 1.1rem;
   }
 }
 
-.ic1 {
-  margin-top: 15px;
+
+// new code
+input#email {
+  width: 90%;
+  height: 6vh;
+  padding: 1rem;
+  margin-left: 1.1rem;
+  margin-top: 0.4rem;
+  border: none;
+
+}
+.user-details .input-box span {
+  margin-left: 1.2rem;
 }
 
-.ic2 {
-  margin-top: 5px;
+input#firstname {
+  width: 90%;
+  height: 6vh;
+  padding: 1rem;
+  margin-left: 1.1rem;
+  margin-top: 0.4rem;
+  border: none;
+
+}
+input#lastname {
+  width: 90%;
+  height: 6vh;
+  padding: 1rem;
+  margin-left: 1.1rem;
+  margin-top: 0.4rem;
+  border: none;
+
+}
+input#contact {
+  width: 90%;
+  height: 6vh;
+  padding: 1rem;
+  margin-left: 1.1rem;
+  margin-top: 0.4rem;
+  border: none;
+
 }
 
-.ic3 {
-  margin-top: 5px;
-}
-.ic4 {
-  margin-top: 5px;
-}
-.ic5 {
-  margin-top: 5px;
-}
