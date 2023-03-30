@@ -1,9 +1,9 @@
 <div class="container">
   <div class="row justify-content-around">
-    <div class="col-4">
+    <div class="col-12 col-sm-12 col-md-5 col-lg-4 col-xl-4">
       <img class="img1" src="\assets\images\Untitled-3.gif" />
     </div>
-    <div class="col-4">
+    <div class="col-12 col-sm-12 col-md-5 col-lg-4 col-xl-4">
       <div class="container-head">
         call <span class="number">713-221-8522</span> to speak to an admission
         counselor or complete the form below to learn more!
@@ -13,29 +13,41 @@
 </div>
 
 <!-- lower nav -->
-<ul ngbNav #nav="ngbNav" [activeId]="2" class="nav-tabs justify-content-left">
-  <div class="navlinks">
-    <li [ngbNavItem]="1">
-      <a ngbNavLink>HOME</a>
-      <ng-template ngbNavContent>
-        <p>Raw denim</p>
-      </ng-template>
-    </li>
-
-    <li ngbDropdown class="nav-item">
-      <a href (click)="(false)" class="nav-link" ngbDropdownToggle
-        >DEGREE PROGRAMS</a
-      >
-      <div ngbDropdownMenu>
-        <button ngbDropdownItem>Action</button>
-        <button ngbDropdownItem>Another action</button>
-        <button ngbDropdownItem>Something else here</button>
-        <div class="dropdown-divider"></div>
-        <button ngbDropdownItem>Separated link</button>
-      </div>
-    </li>
+<nav class="navbar navbar-expand-lg">
+  <button
+    class="navbar-toggler"
+    type="button"
+    data-toggle="collapse"
+    data-target="#navbarNavDropdown"
+    aria-controls="navbarNavDropdown"
+    aria-expanded="false"
+    aria-label="Toggle navigation"
+  >
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNavDropdown">
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link" href="#">HOME</a>
+      </li>
+      <li class="nav-item dropdown">
+        <a
+          class="nav-link dropdown-toggle"
+          href="#"
+          id="navbarDropdownMenuLink"
+          role="button"
+          data-toggle="dropdown"
+          aria-haspopup="true"
+          aria-expanded="false"
+        >
+          DEGREE PROGRAMS
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+          <a class="dropdown-item" href="#">Action</a>
+          <a class="dropdown-item" href="#">Another action</a>
+          <a class="dropdown-item" href="#">Something else here</a>
+        </div>
+      </li>
+    </ul>
   </div>
-</ul>
-
-<div [ngbNavOutlet]="nav" class="mt-2"></div>
-
+</nav>

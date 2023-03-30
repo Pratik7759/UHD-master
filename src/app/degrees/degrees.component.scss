@@ -4,7 +4,6 @@
   margin-left: 15vw;
   margin-right: 17vw;
 
-
   .degree-heading {
     font-size: 1.7rem;
     color: darkblue;
@@ -16,7 +15,6 @@
     margin-top: 4rem;
 
     .row {
-
       background-color: white;
       .col button {
         text-align: center;
@@ -25,7 +23,6 @@
         width: 15rem;
         color: rgb(7, 7, 88);
         border: none;
-
 
         &:hover {
           background-color: rgb(170, 8, 8);
@@ -50,3 +47,45 @@
     }
   }
 }
+// choose
+.choose-container {
+  //   border: 2px solid black;
+  margin-top: 4rem;
+  width: 100vw;
+  .choose-heading {
+    // border: 1px solid black;
+    font-size: 1.8rem;
+    font-weight: 600;
+    text-align: center;
+    height: 4rem;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    padding: 0.7rem;
+    background-color: rgb(147, 179, 206);
+    color: white;
+  }
+  .container {
+    // border: 1px solid black;
+    .row {
+      //   border: 1px solid red;
+      margin-top: 2rem;
+      .col-sm {
+        // border: 1px solid green;
+        .col-head {
+          //   border: 1px solid red;
+          font-size: 25px;
+          font-weight: 500;
+          text-align: center;
+          color: rgb(1, 1, 71);
+        }
+        .choose-para {
+          font-size: 17px;
+          text-align: center;
+          padding: 12px;
+        }
+      }
+    }
+  }
+}
+
+

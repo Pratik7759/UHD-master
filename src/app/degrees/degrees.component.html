@@ -8,16 +8,82 @@
   </div>
   <div class="btn-container">
     <div class="row">
-      <div class="col" ><button (click)="onClick($event)" id="test1">BUSINESS</button></div>
-      <div class="col" ><button (click)="onClick1($event)" id="test2">COMPLETION</button></div>
-      <div class="col" ><button (click)="onClick($event)" id="test3">CRIMINAL JUSTICE</button></div>
-      <div class="col" ><button (click)="onClick($event)" id="test4">EDUCATION</button></div>
+      <!-- (click)="onClick($event)" -->
+      <div class="col">
+        <button (click)="onClick1($event)">BUSINESS</button>
+      </div>
+      <div class="col">
+        <button (click)="onClick2($event)">COMPLETION</button>
+      </div>
+      <div class="col">
+        <button (click)="onClick3($event)">CRIMINAL JUSTICE</button>
+      </div>
+      <div class="col">
+        <button (click)="onClick4($event)">EDUCATION</button>
+      </div>
     </div>
     <div class="row">
-      <div class="col-4"><button>HUMANITIES & SOCIAL SCIENCE</button></div>
-      <div class="col-4"><button>PUBLIC SERVICE</button></div>
-      <div class="col-4"><button>SCIENCE</button></div>
+      <div class="col-4 col-sm-12 col-md-4 col-lg-4 col-xl-4">
+        <button>HUMANITIES & SOCIAL SCIENCE</button>
+      </div>
+      <div class="col-4 col-sm-12 col-md-4 col-lg-4 col-xl-4">
+        <button>PUBLIC SERVICE</button>
+      </div>
+      <div class="col-4 col-sm-12 col-md-4 col-lg-4 col-xl-4">
+        <button>SCIENCE</button>
+      </div>
     </div>
   </div>
 </div>
 
+<!-- tabs using material -->
+
+
+<!-- <mdb-tabs [justified]="true">
+  <mdb-tab title="BUSINESS">BUSINESS</mdb-tab>
+  <mdb-tab title="COMPLETION">COMPLETION</mdb-tab>
+  <mdb-tab title="CRIMINAL JUSTICE">CRIMINAL JUSTICE</mdb-tab>
+  <mdb-tab title="EDUCATION">EDUCATION</mdb-tab>
+</mdb-tabs> -->
+
+<!-- choose -->
+<div class="choose-container">
+  <div class="choose-heading" #demo>Why Choose UHD?</div>
+  <div class="container">
+    <div class="row">
+      <div class="col-sm">
+        <div class="col-head">Affordibility</div>
+        <div class="choose-para">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt animi
+          iure dolores voluptatibus eum quo accusantium nihil ipsam provident,
+          cupiditate molestiae obcaecati ad debitis sapiente aliquid maxime
+          cumque minus dignissimos in. Architecto inventore, dicta aut
+          recusandae rem eaque voluptate, aspernatur nihil veniam, error dolore
+          non rerum culpa ratione vel cumque?
+        </div>
+      </div>
+      <div class="col-sm">
+        <div class="col-head">Flexibility</div>
+        <div class="choose-para">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt animi
+          iure dolores voluptatibus eum quo accusantium nihil ipsam provident,
+          cupiditate molestiae obcaecati ad debitis sapiente aliquid maxime
+          cumque minus dignissimos in. Architecto inventore, dicta aut
+          recusandae rem eaque voluptate, aspernatur nihil veniam, error dolore
+          non rerum culpa ratione vel cumque?
+        </div>
+      </div>
+      <div class="col-sm">
+        <div class="col-head">Earning Ability</div>
+        <div class="choose-para">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt animi
+          iure dolores voluptatibus eum quo accusantium nihil ipsam provident,
+          cupiditate molestiae obcaecati ad debitis sapiente aliquid maxime
+          cumque minus dignissimos in. Architecto inventore, dicta aut
+          recusandae rem eaque voluptate, aspernatur nihil veniam, error dolore
+          non rerum culpa ratione vel cumque?
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

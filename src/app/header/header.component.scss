@@ -1,34 +1,34 @@
 $background-color: rgb(12, 29, 104);
 $color: white;
 $border-background-color: rgb(172, 16, 16);
-ul.nav-tabs.justify-content-left.nav {
-  height: 2.9rem;
-}
-.nav-tabs {
-  background-color: $background-color;
-  border-top: 4px solid $border-background-color;
-  .navlinks {
-    display: flex;
-    margin-left: 14vw;
-  }
-  span {
-    color: red;
-  }
+// ul.nav-tabs.justify-content-left.nav {
+//   height: 2.9rem;
+// }
+// .nav-tabs {
+  // background-color: $background-color;
+  // border-top: 4px solid $border-background-color;
+  // .navlinks {
+  //   display: flex;
+  //   margin-left: 14vw;
+  // }
+  // span {
+  //   color: red;
+  // }
 
-  li.nav-item a {
-    background-color: $background-color;
-    color: $color;
-    border-color: $background-color;
+  // li.nav-item a {
+  //   background-color: $background-color;
+  //   color: $color;
+  //   border-color: $background-color;
 
-    &:hover {
-      background-color: $border-background-color;
-      color: $color;
-      border-color: $border-background-color;
-    }
-  }
-}
+    // &:hover {
+    //   background-color: $border-background-color;
+    //   color: $color;
+    //   border-color: $border-background-color;
+    // }
+  // }
+// }
 span.number {
-  color: red;
+  color: $border-background-color;
   font-weight: 400;
 }
 img.img1 {
@@ -44,3 +44,28 @@ img.img1 {
   text-align: right;
 }
 
+// lower nav
+
+.navbar{
+  border-top:4px solid $border-background-color;
+  background-color:$background-color;
+  .navbar-nav{
+    margin-left: 13.8rem;
+    .nav-item{
+      margin-top: -7.44px;
+      margin-bottom: 1px;
+      .nav-link{
+        color:white;
+        &:hover{
+          background-color: $border-background-color;
+        }
+      }
+    }
+  
+  }
+
+
+  // &:hover{
+  //   color:white;
+  // }
+}

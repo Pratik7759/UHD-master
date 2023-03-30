@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { AppComponent } from '../app.component';
+// import { AppComponent } from '../app.component';
 
 
 
@@ -10,8 +10,8 @@ import { AppComponent } from '../app.component';
 })
 export class ChooseComponent {
 
-  constructor(public AppComponent : AppComponent ){
-    console.log('ghvvhj',this.AppComponent.name);
+  // constructor(public AppComponent : AppComponent ){
+  //   console.log('ghvvhj',this.AppComponent.name);
 
-  }
+  // }
 }

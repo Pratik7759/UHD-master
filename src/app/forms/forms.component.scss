@@ -10,16 +10,16 @@
   .title {
     color: #eee;
     font-family: sans-serif;
-    font-size: 20px;
+    font-size: 1.2rem;
     font-weight: 300;
     background-color: rgb(12, 29, 104);
     width: 100%;
-    height: 50px;
+    height: 3rem;
     padding: 0px;
 
     p.title-head {
-      margin-left: 20px;
-      padding: 10px;
+      margin-left: 1.2rem;
+      padding: 0.65rem;
     }
   }
   .submit {
@@ -29,13 +29,14 @@
     box-sizing: border-box;
     color: white;
     cursor: pointer;
-    font-size: 18px;
-    height: 50px;
-    margin-top: 10px;
+    font-size: 1.2rem;
+    height: 3rem;
+    margin-top: 1rem;
     outline: 0;
     text-align: center;
     width: 90%;
-    margin-left: 1.1rem;  }
+    margin-left: 1.1rem;
+  }
   .btn {
     background-color: white;
     margin-top: 0.4rem;
@@ -43,9 +44,10 @@
     color: rgb(120, 116, 116);
     width: 155.4%;
     height: 2.6rem;
-        text-align: left;
-    padding-left: 16px;
-    margin-left: 1.1rem;  }
+    text-align: left;
+    padding-left: 1rem;
+    margin-left: 1.1rem;
+  }
   .btn-two {
     background-color: white;
     margin-top: 0.4rem;
@@ -54,9 +56,10 @@
     width: 145.9%;
     height: 2.6rem;
     text-align: left;
-    padding-left: 16px;
+    padding-left: 1rem;
     border: none;
-    margin-left: 1.1rem;  }
+    margin-left: 1.1rem;
+  }
   .btn-three {
     background-color: white;
     margin-top: 0.4rem;
@@ -71,7 +74,6 @@
   }
 }
 
-
 // new code
 input#email {
   width: 90%;
@@ -80,7 +82,6 @@ input#email {
   margin-left: 1.1rem;
   margin-top: 0.4rem;
   border: none;
-
 }
 .user-details .input-box span {
   margin-left: 1.2rem;
@@ -93,7 +94,6 @@ input#firstname {
   margin-left: 1.1rem;
   margin-top: 0.4rem;
   border: none;
-
 }
 input#lastname {
   width: 90%;
@@ -102,7 +102,6 @@ input#lastname {
   margin-left: 1.1rem;
   margin-top: 0.4rem;
   border: none;
-
 }
 input#contact {
   width: 90%;
@@ -111,6 +110,115 @@ input#contact {
   margin-left: 1.1rem;
   margin-top: 0.4rem;
   border: none;
-
 }
 
+@media (max-width: 575.98px) {
+  .form {
+    width: 18rem;
+    top:14rem;
+    height:27rem;
+    left:3.8rem;
+    .btn {
+      width: 16.2rem;
+    }
+    .btn-two {
+      width: 16.2rem;
+    }
+    .btn-three {
+      width: 16.2rem;
+    }
+  }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .form{
+      width: 18rem;
+      top:12.5rem;
+      left:11rem;
+      height:27rem;
+
+      .btn {
+        width:16.2rem;
+      }
+      .btn-two {
+        width:16.2rem;
+      }
+      .btn-three {
+        width:16.2rem;
+      }
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .form{
+      width: 18rem;
+      top:10rem;
+      left:19rem;
+      height:27rem;
+
+      .btn {
+        width:16.2rem;
+      }
+      .btn-two {
+        width:16.2rem;
+      }
+      .btn-three {
+        width:16.2rem;
+      }
+  }
+}
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .form{
+      width: 18rem;
+      top:10rem;
+      left:27rem;
+      height:27rem;
+
+      .btn {
+        width:16.2rem;
+      }
+      .btn-two {
+        width:16.2rem;
+      }
+      .btn-three {
+        width:16.2rem;
+      }
+  }
+}
+@media (min-width: 1200px) and (max-width: 1402.98px) {
+  .form{
+      width: 18rem;
+      top:10rem;
+      right:14rem;
+      height:27rem;
+
+      .btn {
+        width:16.2rem;
+      }
+      .btn-two {
+        width:16.2rem;
+      }
+      .btn-three {
+        width:16.2rem;
+      }
+  }
+}
+
+@media (min-width: 1403px)  {
+  .form{
+      width: 21rem;
+      top:8rem;
+      right:14rem;
+      height:32rem;
+
+      .btn {
+        width:18.9rem;
+      }
+      .btn-two {
+        width:18.9rem;
+      }
+      .btn-three {
+        width:18.9rem;
+      }
+  }
+}

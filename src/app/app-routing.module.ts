@@ -1,16 +1,10 @@
 import { NgModule } from '@angular/core';
-import { RouterModule, Routes } from '@angular/router';
-import { ChooseComponent } from './choose/choose.component';
+// import { ChooseComponent } from './choose/choose.component';
+// import { MdbTabsModule } from 'mdb-angular-ui-kit/tabs';
 
-
-
-
-const routes: Routes = [
-  { path: 'employees', component: ChooseComponent },
-];
 
 @NgModule({
-  imports: [RouterModule.forRoot(routes)],
-  exports: [RouterModule]
+  imports: [],
+  exports: []
 })
 export class AppRoutingModule { }

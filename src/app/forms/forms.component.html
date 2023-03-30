@@ -49,7 +49,12 @@
   <!-- contact -->
   <div class="user-details">
     <div class="input-box">
-      <input id="contact" type="number" formControlName="contact" placeholder="Phone Number" />
+      <input
+        id="contact"
+        type="number"
+        formControlName="contact"
+        placeholder="Phone Number"
+      />
       <span
         style="color: red"
         *ngIf="contact && contact.invalid && contact.touched"

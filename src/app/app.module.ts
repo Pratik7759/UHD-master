@@ -1,6 +1,5 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
@@ -16,9 +15,11 @@ import { DegreesComponent } from './degrees/degrees.component';
 import { WhyuhdComponent } from './whyuhd/whyuhd.component';
 import { ChooseComponent } from './choose/choose.component';
 import { MainfooterComponent } from './mainfooter/mainfooter.component';
+import { MdbTabsModule } from 'mdb-angular-ui-kit/tabs';
+
 @NgModule({
   declarations: [AppComponent, HeaderComponent,FormsComponent, FooterComponent, AboutComponent, DegreesComponent, WhyuhdComponent, ChooseComponent, MainfooterComponent ],
-  imports: [BrowserModule, AppRoutingModule, NgbModule, BannerComponent, BrowserAnimationsModule,FormsModule,ReactiveFormsModule],
+  imports: [BrowserModule, AppRoutingModule, NgbModule, BannerComponent, BrowserAnimationsModule,FormsModule,ReactiveFormsModule,MdbTabsModule],
   providers: [],
   bootstrap: [AppComponent],
 })
